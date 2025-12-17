@@ -766,6 +766,7 @@ namespace nvhttp {
       tree.put("root.ExternalIP", config::nvhttp.external_ip);
     }
 
+
     std::ostringstream data;
 
     pt::write_xml(data, tree);
